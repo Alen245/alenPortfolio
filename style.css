@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F4EBD0; /* Cream */
+}
+
+header {
+  background-color: #122620; /* Charcoal */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  flex: 1;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #F4EBD0; /* Cream */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #B68D40; /* Tan */
+}
+
+section#about {
+  background-color: #F4EBD0; /* Cream */
+  color: #122620; /* Charcoal */
+  padding: 20px;
+}
+
+/* ... rest of the CSS styles ... */
+/* ... rest of the CSS styles ... */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px; /* Adjust the gap size as needed */
+}
+
+.grid__item {
+  border: 1px solid #ccc; /* Optional: Add borders for visual separation */
+  padding: 20px; /* Optional: Add padding for content spacing */
+  background-color: #122620;
+  color: #F4EBD0;
+}
+
+
+a {
+  color: #D6AD60; /* Gold */
+}
+
+a:hover {
+  color: #B68D40; /* Tan */
+}
+
+footer {
+  background-color: #122620; /* Charcoal */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+section#contact {
+  background-color: #F4EBD0; /* Cream */
+  color: #122620; /* Charcoal */
+  padding: 20px;
+}
+
+section#contact h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #B68D40; /* Tan */
+}
+
+section#contact p {
+  font-size: 1.2em;
+}
+
+section#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section#contact li {
+  margin-bottom: 10px;
+}
+
+section#contact a {
+  color: #D6AD60; /* Gold */
+  text-decoration: none;
+}
+
+section#contact a:hover {
+  color: #B68D40; /* Tan */
+}
