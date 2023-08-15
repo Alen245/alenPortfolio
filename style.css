@@ -59,19 +59,23 @@ section#about {
   padding: 20px;
 }
 
-/* ... rest of the CSS styles ... */
-/* ... rest of the CSS styles ... */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px; /* Adjust the gap size as needed */
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
 }
 
 .grid__item {
-  border: 1px solid #ccc; /* Optional: Add borders for visual separation */
-  padding: 20px; /* Optional: Add padding for content spacing */
+  border: 1px solid #ccc;
+  padding: 20px;
   background-color: #122620;
   color: #F4EBD0;
+}
+
+.grid__item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 
