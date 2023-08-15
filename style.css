@@ -122,3 +122,44 @@ section#contact a {
 section#contact a:hover {
   color: #B68D40; /* Tan */
 }
+
+/* Pictures Section */
+section#pictures {
+  background-color: #F4EBD0; /* Cream */
+  padding: 20px;
+}
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 20px; /* Adjust the gap size as needed */
+  justify-items: center; /* Center the items */
+  align-items: center; /* Vertically center the items */
+}
+
+.picture-item {
+  border: 1px solid #ccc; /* Gives a light border to the pictures */
+  text-align: center; /* Center align the text */
+  transition: transform 0.3s ease; /* Add a transition for hover effects */
+  overflow: hidden; /* Keeps the content from spilling out */
+}
+
+.picture-item:hover {
+  transform: scale(1.05); /* Slightly scale the item on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Gives a subtle shadow on hover */
+}
+
+.picture-item img {
+  width: 100%; /* Ensures that images take the full width of the container */
+  height: auto; /* Maintains the aspect ratio of the images */
+  transition: transform 0.3s ease; /* Add a transition for hover effects */
+}
+
+.picture-item img:hover {
+  transform: scale(1.1); /* Slightly zoom the image on hover */
+}
+
+.picture-item p {
+  margin-top: 10px;
+  color: #122620; /* Charcoal */
+}
